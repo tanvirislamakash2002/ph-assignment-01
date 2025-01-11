@@ -318,6 +318,7 @@ nav{
     background-color: #006A50;
     color: #FFFFFF;
     padding: 15px 32px;
+    font-weight:600 ;
 }
 .box-content button{
     font-size: 18px;
@@ -328,3 +329,82 @@ nav{
     padding: 15px 32px;
 
 }
+
+
+/* subscribe section design start here  */
+
+.subscribe{
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 24px;
+    margin:80px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe h1{
+    color:#0E0E0E;
+    margin-bottom:16px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.subscribe p{
+    color:rgba(14, 14, 14, 0.7);
+    margin-bottom:24px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 622px;
+}
+
+.subscribe-box{
+    display: flex;
+    justify-content: center;
+}
+.subscribe input{
+    border: none;
+    padding: 20px;
+}
+.subscribe input[type=email]{
+    border: none;
+    padding: 18px 403px 18px 40px;
+    font-size: 20px;
+}
+.subscribe input[type=submit]{
+    border: none;
+    padding: 15px 32px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #006A50;
+}
+
+.subscribe a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* footer icon section design start here  */
+
+.footer-bottom{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.footer-bottom h2{
+    font-size:32px;
+    font-weight: 700;
+    color: #0E0E0E ;
+    margin:50px 0 32px 0 ;
+}
+
+.footer-icon{
+    margin: 32px 0 50px 0;
+    display: flex;
+    gap: 23px;
+}
+
+
