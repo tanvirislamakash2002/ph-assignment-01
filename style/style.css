@@ -38,6 +38,7 @@ nav{
     background: #C6E4D6;
     display: flex;
     padding: 80px 100px;
+    align-items: center;
 }
 .banner-content{
     width: 620px;
@@ -67,14 +68,71 @@ nav{
 
 /* pillars section design start here  */
 
+.pillars h1{
+    font-size: 40;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin:80px 0 32px 0;
+}
+
+.pillar-box{
+    display: flex;    
+    justify-content: space-between;
+    gap:24px
+}
+.pillar-box .box{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    border-radius: 16px;
+}
+.pillar-box .box h4{
+    margin: 24px 0 12px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+.pillar-box .box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
 
 /* vision section design start here  */
 
+.vision h1{
+    font-size: 40;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin:80px 0 24px 0;
+}
+.vision >p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin:0 0 32px 0;
+}
+.vision-box{
+    display: flex;    
+    justify-content: space-between;
+    gap:24px
+}
 .vision-box .box{
-    padding: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.vision-box .box h4{
+    margin: 24px 0 12px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
 }
 .vision-box .box p{
-    padding-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
 }
 
 .vision-button{
@@ -84,4 +142,38 @@ nav{
     border-radius: 8px;
     color: #FFFFFF;
 }
+
+/* yunus quote section design start here  */
+
+.yunus-quote{
+    padding:48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin:32px 0 80px 0 ;
+
+}
+.quote-box{    
+    color: rgba(14, 14, 14, 0.8);
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 29px;
+    font-size: 16px;
+}
+.quote-box h3{
+    font-size: 20px;   
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 600;
+    margin: 12px 0 4px 0;
+
+}
+.quote-box h6{   
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: 400;
+}
+
+/* opinion section design start here  */
+
+
 
