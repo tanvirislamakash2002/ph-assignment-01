@@ -29,6 +29,19 @@ body{
 
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    margin: 31px 0;
+}
+nav button{
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #006A50       ;
+    border-radius: 8px;
+    color: #006A50;
 }
 
 
@@ -177,30 +190,52 @@ nav{
 
 
 
+.opinion h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.opinion table{
+    background-color:#fff;
+    padding: 32px;
+    border-radius: 16px;
+    border-collapse: collapse;
+    display: block;
+    padding: 32px;
+}
 
+caption{
+    color: #0E0E0E;
+    font-size:20px;
+    font-weight: 600;
+    background-color: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+}
 
+.opinion table tbody tr td{
+    color: #0E0E0E;
+    font-size:16px;    
+    border: 2px solid rgba(14, 14, 14, 0.15);    
+    padding: 20px;
+    width: 100%;
 
+}
+.opinion table tbody tr td select {
+    border: none;
+    padding: 12px 16px;
+    background-color: #C6E4D6;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
 /* news section design start here  */
+
+
 
 .news h1{
     font-weight: 700;
@@ -219,13 +254,11 @@ nav{
     justify-content: space-between;
     gap:32px;
     padding: 48px;
-    margin-bottom: 24px;
     align-items: center;
+    border-radius: 24px;
+    background-color: #fff;
 }
 
-.news-box .box-img{
-    margin-top: 24px;
-}
 .news-box .box-img img{
     border-radius: 24px;
 }
@@ -262,6 +295,9 @@ nav{
 
 /* donate section design start here  */
 
+.donate{
+    margin-top: 80px;
+}
 .donate h1{
     color:#0E0E0E;
     font-weight: 700;
@@ -369,6 +405,7 @@ nav{
     border: none;
     padding: 18px 403px 18px 40px;
     font-size: 20px;
+    border-radius: 10px 0px 0px 10px;
 }
 .subscribe input[type=submit]{
     border: none;
@@ -376,6 +413,7 @@ nav{
     font-size: 18px;
     color: #FFFFFF;
     background-color: #006A50;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .subscribe a{
