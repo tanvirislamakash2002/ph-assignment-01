@@ -2,3 +2,86 @@
     margin: 0;
     padding: 0;
 }
+
+/* goole font design  */
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    background-color: #F5F5F5;
+    font-family: "Fira sans" ,serif;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* header top design start here  */
+
+nav{
+    display: flex;
+}
+
+
+/* banner area design start here  */
+
+.banner-area{
+    background: #C6E4D6;
+    display: flex;
+    padding: 80px 100px;
+}
+.banner-content{
+    width: 620px;
+}
+.banner-content h4{
+    font-size: 24px;
+    color: rgba(14,14,14,50%);
+    margin-bottom: 16px;
+
+}
+.banner-content h1{
+    font-size: 56px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.banner-content button{
+    font-size: 18px;
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 15px 32px;
+
+}
+
+/* pillars section design start here  */
+
+
+/* vision section design start here  */
+
+.vision-box .box{
+    padding: 20px;
+}
+.vision-box .box p{
+    padding-bottom: 32px;
+}
+
+.vision-button{
+    border: none;
+    font-size: 16px;
+    padding:11px 20px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
